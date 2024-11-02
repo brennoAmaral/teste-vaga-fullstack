@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "scripts": {
+    "parse": "npx tsx ./src/index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^22.8.6",
+    "csv-parser": "^3.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}

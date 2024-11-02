@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Alvo para a versão mais recente do ECMAScript
+    "module": "ESNext", // Usar ES Modules
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "compilerOptions": {
+    "moduleResolution": "node", // ou "nodenext"
+    // outras opções...
+  },
+  "include": ["src/**/*", "index.ts"], // Incluir todos os arquivos TypeScript no diretório src
+  "exclude": ["node_modules"]
+}

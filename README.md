@@ -1,3 +1,21 @@
+# Instalação do projeto
+
+1. **Clone do projeto**: 
+
+  ```bash
+  -git clone https://github.com/brennoAmaral/teste-vaga-fullstack.git
+  -cd teste-vaga-fullstack
+
+2. **Instalação das dependências**: 
+
+   ```bash
+   -yarn
+
+3. **Start do script**: 
+
+  ```bash
+  -yarn parse
+
 # Teste Prático para Desenvolvedor Full Stack Kronoos
 
 Você foi designado para desenvolver uma aplicação que deve lidar com grandes volumes de dados. Você deve rodar as seguintes validações e tratativas para cada um dos dados do arquivo e mostrar um retorno ao concluir a rotina. A aplicação será responsável por fornecer uma massa de dados considerável (cerca de 30GB) e deve ser capaz de lidar com dados fornecidos.
