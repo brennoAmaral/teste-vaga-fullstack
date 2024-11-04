@@ -32,7 +32,7 @@ export class UseCaseContractFieldsParser {
       nrAgencia: 0,
       cdClient: 0,
       nmClient: "",
-      nrCpfCnpj: 0,
+      nrCpfCnpj:"",
       nrContrato: 0,
       dtContrato: 0,
       qtPrestacoes: 0,
@@ -85,6 +85,11 @@ export class UseCaseContractFieldsParser {
       const fieldIsCnpj = key === 'nrCpfCnpj' && fieldValue.length === 14
       if(fieldIsCnpj){
         formattedFields[key] = this.cnpj.formatter(fieldValue)
+        return
+      }
+
+      if(key === 'nrCpfCnpj'){
+        formattedFields[key] = fieldValue
         return
       }
 

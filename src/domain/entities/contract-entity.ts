@@ -35,7 +35,7 @@ export interface ContractDTOResponse {
   nrAgencia: number
   cdClient: number
   nmClient: string
-  nrCpfCnpj: number
+  nrCpfCnpj: string
   nrContrato: number
   dtContrato: number
   qtPrestacoes: number
